@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>University Website Desing</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate and Online Programs for 2021</h1>
+    </section>
+
+    <!----------------------- blog page content---------------------->
+    
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate and Online Programs for 2021</h2>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic deleniti minus ratione animi quasi eius qui excepturi, doloribus recusandae molestias, quo similique quia velit aperiam eligendi, dignissimos voluptas nam accusantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, molestiae voluptate sapiente animi sequi laudantium?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ducimus enim aliquam temporibus! Voluptatem quo quia odio voluptate quasi enim qui, ullam similique, nisi repellat nesciunt ipsum obcaecati dolor architecto doloremque aliquam non nobis cumque quibusdam eligendi eveniet aperiam perferendis numquam! Accusantium inventore cum deleniti tenetur dolorum corporis velit, sapiente labore atque magnam ex, eligendi, aliquid in soluta. Molestiae, ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus id consequatur cupiditate esse fuga aut laborum corrupti aspernatur atque eos officia, voluptates dolor, iure animi! Voluptatibus nihil aperiam velit? Non?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis praesentium doloremque ut pariatur veniam odio totam, nisi consequatur eius explicabo earum distinctio dignissimos perspiciatis ab dolorum in qui commodi quos doloribus eum cum. Nesciunt inventore molestias rem explicabo, nisi sed ut consectetur fugiat ex magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum beatae nemo, corporis porro sapiente natus eligendi non itaque in nisi?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus tenetur aperiam enim reprehenderit officiis id vel dolorum sunt, dolores quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse expedita similique magnam ab, saepe doloribus? Tenetur fugiat distinctio repudiandae adipisci?</p>
+
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+    
+                    <form action="javascript:validateForm" method="POST" autocomplete="on"
+                    name="Entery_form" onsubmit="return validateForm()">
+                        <input type="text" placeholder="Enter Name"id="Name" name="name">
+                        <input type="email" placeholder="Enter Email" id="mail" >
+                        <input type="text" placeholder="Enter your subject"id="subject">
+                        <textarea rows="5" placeholder="Your Comment" id="message"></textarea>
+                        <button type="submit" class="hero-btn red-btn" onclick="validateForm()">POST COMMENT</button>
+                    </form>
+                </div>
+
+                
+            </div>
+
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Buisness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------------- footer ---------------------->
+    
+    <section class="footer">
+        <h4>About US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id blanditiis magnam autem iure provident reiciendis, accusamus voluptas ut dolorum <br> voluptatibus amet impedit sequi nulla ipsam, quia quo. Id, odit voluptatum!</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by ASWIN ANAND</p>
+    </section>
+
+    <!-- ----------------Javascript for Toggle Menu--------- -->
+    <script src="JS/script.js">
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>

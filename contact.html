@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>University Website Desing</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+        <!----------------------- Contact US ---------------------->
+
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.028334529499!2d85.29514281499395!3d23.38719220847073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e1bc3190d2d7%3A0xd44f4ba501ba81c7!2sprasad%20embroidery%20works!5e0!3m2!1sen!2sin!4v1631808271899!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fas fa-home"></i>
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                            <p>Jharkhand, Ranchi, IN</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>
+                            <h5>+91 0123456789</h5>
+                            <p>Monday to Saturday, 10AM to 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>code2021asw@gmail.com</h5>
+                            <p>Email us your query </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+    
+                    <form action="javascript:validateForm" method="POST" autocomplete="on"
+                    name="Entery_form" onsubmit="return validateForm()">
+                        <input type="text" name="name" id="Name" placeholder="Enter your name" class="formerror">
+                        <input type="email"name="email" id="mail" placeholder="Enter email address" class="formerror">
+                        <input type="text" name="text" placeholder="Enter your subject" class="formerror" id="subject">
+                        <textarea rows="8" name="textarea" placeholder="Message" id="message"></textarea>
+                        <button type="submit" class="hero-btn red-btn" onclick="validateForm()">Send Message</button>
+                    </form>
+    
+                </div>
+            </div>
+        </section>
+    
+    <!----------------------- footer ---------------------->
+    
+    <section class="footer">
+        <h4>About US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id blanditiis magnam autem iure provident reiciendis, accusamus voluptas ut dolorum <br> voluptatibus amet impedit sequi nulla ipsam, quia quo. Id, odit voluptatum!</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by ASWIN ANAND</p>
+    </section>
+
+    <!-- ----------------Javascript for Toggle Menu--------- -->
+    <script src="JS/script.js">
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
