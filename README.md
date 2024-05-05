@@ -7,7 +7,7 @@ UNIVERSITY website , buiilt in html , css and js .
 
 ## Demo
 
-https://success-classes.netlify.app
+https://edu-foard.netlify.app
 ## Features
 
 - Elgant design
